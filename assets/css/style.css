@@ -650,6 +650,7 @@ textarea {
 		clear: both;
 		position: relative;
 		margin-top: 0px;
+		width: 640px;
 	}
 
 	.wrapper {
