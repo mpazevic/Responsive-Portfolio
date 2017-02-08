@@ -506,7 +506,7 @@ textarea {
 	}
 
 	#about-me {
-		margin-left: 100px;
+		margin-left: 0px;
 		width: 400px;
 		height: 775px;
 	}
@@ -519,12 +519,25 @@ textarea {
 	.footer {
 		clear: both;
 		position: relative;
-		margin-top: 387px;
+		margin-top: 0px;
+	}
+
+	#connect-with-me {
+		top: 0;
+		right: 0;
+	}
+
+	.wrapper {
+		height: 1024px;
 	}
 
 	.wrapper-body {
-		padding-bottom: 100px;
+		margin-top: 10px;
+		height: 200px;
+		margin-left: 100px;
 	}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -564,11 +577,18 @@ textarea {
 	.footer {
 		clear: both;
 		position: relative;
-		margin-top: 255px;
+		margin-top: 0px;
+	}
+
+	.wrapper {
+		width: 766px;
+		padding-bottom: 0px;
+		height: 871px;
 	}
 
 	.wrapper-body {
 		padding-bottom: 100px;
+		margin-left: 0px;
 	}	
 
 	#connect-with-me-header {
@@ -617,17 +637,7 @@ textarea {
 	}
 
 	#connect-with-me {
-		position: relative;
-		clear: both;
-		width: 569px;
-		height: 140px;
-		top: 50px;
-		margin-right: 0 auto;
-		margin-left: 17px;
-		border: 1px solid #dddddd;
-		float: left;
-		padding: 20px;
-		background-color: #ffffff;
+		margin-top: 15px;
 	}
 
 	#profile-picture {
@@ -639,7 +649,12 @@ textarea {
 	.footer {
 		clear: both;
 		position: relative;
-		margin-top: 677px;
+		margin-top: 0px;
+	}
+
+	.wrapper {
+		width: 640px;
+		padding-bottom: 437px;
 	}
 
 	.wrapper-top {
@@ -652,17 +667,6 @@ textarea {
 		padding-bottom: 160px;
 		top: 130px;
 	}	
-
-	#connect-with-me-header {
-		text-align: left;
-		color: #4aaaa5;
-		font-family: 'Georgia', Times, 'Times New Roman', serif;
-		padding-top: 7px;
-		padding-left: 5px;
-		padding-bottom: 15px;
-		font-size: 19px;
-		border-bottom: 2px solid #dddddd;
-	}
 
 	#image-container {
 		position: relative;
@@ -718,7 +722,7 @@ textarea {
 		height: 500px;
 		border: 1px solid #dddddd;
 		float: left;
-		margin-left: 100px;
+		margin-left: 0px;
 		padding: 25px;
 		background-color: #ffffff;
 	}
@@ -731,6 +735,7 @@ textarea {
 
 	.wrapper-body {
 		padding-bottom: 100px;
+		margin-left: 100px;
 	}
 }
 
@@ -755,28 +760,27 @@ textarea {
 	}
 
 	#connect-with-me {
-		position: relative;
-		clear: both;
 		width: 670px;
 		height: 140px;
 		top: 40px;
 		margin-right: 0 auto;
-		margin-left: 25px;
-		border: 1px solid #dddddd;
-		float: left;
-		padding: 20px;
-		background-color: #ffffff;
+		margin-left: 15px;
 	}
 
 	.contact-footer {
 		clear: both;
 		position: relative;
-		margin-top: 215px;
+		margin-top: 0px;
 	}
 
 	.wrapper-body {
 		padding-bottom: 100px;
+		margin-left: 0px;
 	}	
+
+	.wrapper-content {
+		height: 970px;
+	}
 
 	#connect-with-me-header {
 		text-align: left;
@@ -846,7 +850,11 @@ textarea {
 	.contact-footer {
 		clear: both;
 		position: relative;
-		margin-top: 236px;
+		margin-top: 0px;
+	}
+
+	.wrapper-content {
+		height: 1008px;
 	}
 
 	.wrapper-top {
@@ -918,6 +926,7 @@ textarea {
 	#portfolio-box {
 		width: 375px;
 		height: 1435px;
+		margin-left: 0px;
 	}
 
 	#project1 {
@@ -989,11 +998,16 @@ textarea {
 	}
 
 	.portfolio-footer {
-		margin-top: 600px;
+		margin-top: 0px;
 	}
 
 	.wrapper-body {
 		padding-bottom: 100px;
+		width: 764px;
+	}
+
+	.wrapper-all-portfolio {
+		height: 1683px;
 	}
 }
 
@@ -1013,7 +1027,11 @@ textarea {
 	}
 
 	.portfolio-footer {
-		margin-top: 285px;
+		margin-top: 0px;
+	}
+
+	.wrapper-all-portfolio {
+		height: 1390px;
 	}
 
 	#project1 {
@@ -1090,7 +1108,7 @@ textarea {
 		clear: both;
 		width: 670px;
 		height: 140px;
-		top: 40px;
+		top: 37px;
 		margin-right: 0 auto;
 		margin-left: 25px;
 		border: 1px solid #dddddd;
@@ -1101,6 +1119,7 @@ textarea {
 
 	.wrapper-body {
 		padding-bottom: 100px;
+		width: 640px;
 	}	
 
 	#connect-with-me-header {
@@ -1136,7 +1155,7 @@ textarea {
 	}
 
 	.wrapper-all-portfolio {
-		padding-bottom: 915px;
+		height: 2644px;
 	}
 
 	.wrapper-body {
@@ -1226,12 +1245,12 @@ textarea {
 	}
 
 	.portfolio-footer {
-		margin-top: 600px;
+		margin-top: 0px;
 	}
 
 	#connect-with-me {
-		margin-left: 20px;
-		width: 560px;
+		margin-left: 17px;
+		width: 570px;
 	}
 
 }
